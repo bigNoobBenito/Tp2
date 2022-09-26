@@ -2,7 +2,9 @@ import random
 
 playing = True
 while playing:
-    pc_number = int(random.randint(1, 1000))
+    range1 =int(input("vous devez choisir entre deux nombres, choisissez le premier"))
+    range2 =int(input("vous devez choisir entre deux nombres, choisissez le second"))
+    pc_number = random.randint(range1,range2)
     winning = False
     number_try = 0
     while not winning:
